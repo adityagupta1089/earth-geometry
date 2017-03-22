@@ -8,7 +8,7 @@ class point {
 	double latitude;
 	static double radius;
 public:
-	point(double _longitude, double _latitude) {
+	point(double _latitude, double _longitude) {
 		longitude = _longitude * M_PI / 180.0;
 		latitude = _latitude * M_PI / 180.0;
 	}
