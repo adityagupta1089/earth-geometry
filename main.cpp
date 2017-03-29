@@ -88,7 +88,7 @@ int main() {
   distance_ = distance(__paris, __chicago) / 1000;
   t3 += float(clock() - time_) / CLOCKS_PER_SEC;
   std::cout << "(3) Distance between Paris and Chicago is aproximately "
-            << distance_ << " km\n";
+            << distance_ << " km\n";gi
   t1 *= 1000;
   t2 *= 1000;
   t3 *= 1000;
